@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Registro de Contas</title>
+</head>
+<body>
+    <h1>Tela de Registro de Contas</h1>
+    <section class="painel">
+        <h2>Pesquisar por Contas</h2>
+        <form>
+            <div class="campo">
+                <label for="numero">Número da Conta</label>
+                <input id="numero" name="numero" type="text" maxlength="4">
+            </div>
+            <div class="campo">
+                <label for="cpf">CPF</label>
+                <input id="cpf" name="cpf" type="text">
+            </div>
+            <div class="campo">
+                <label for="nome">Nome</label>
+                <input id="nome" name="nome" type="text" maxlength="255">
+            </div>
+            <div class="campo">
+                <label for="eh_aberta">Aberta?</label>
+                <select id="eh_aberta" name="eh_aberta">
+                    <option value="" selected>Selecione</option>
+                    <option value="sim">Sim</option>
+                    <option value="nao">Não</option>
+                </select>
+            </div>
+            <div class="acoes">
+                <button type="submit">Pesquisar</button>
+                <a href="form.html">Nova Conta</a>  
+            </div>
+        </form>
+    </section> 
+</body>
+</html>

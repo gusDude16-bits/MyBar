@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(0, 27, 44);
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.painel {
+    background-color: rgc(0, 57, 93);
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.campo {
+    display: grid;
+    grid-template-columns: 130px 1fr;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+input, select {
+    height: 32px;
+    padding: 0 10px;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    font: inherit;
+    color: rgb(27, 36, 48);
+}
+
+input:focus, select:focus {
+    outline: 2px solid rgb(127, 196, 255);
+}
+
+.acoes {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+button {
+    height: 34px;
+    padding: 0 20px;
+    border: none;
+    background-color: rgb(0, 120, 190);
+    color: white;
+    font: inherit;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(0, 140, 215);
+}
+
+a {
+    color: rgb(159, 211, 255);
+}
