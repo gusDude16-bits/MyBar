@@ -11,7 +11,7 @@ Sistema Web para gerenciamento de contas de bares e restaurantes: abertura e fec
 
 ## Tecnologias
 
-Java 21, Spring Boot, Spring Data JPA (Hibernate), MySQL, HTML, CSS e Javascript
+Java 21, Spring Boot, Spring Data JPA (Hibernate), MySQL, HTML, CSS e JavaScript
 
 ## Como executar
 
@@ -22,7 +22,8 @@ Java 21, Spring Boot, Spring Data JPA (Hibernate), MySQL, HTML, CSS e Javascript
     CREATE DATABASE mybar CHARACTER SET utf8mb4;
     ```
 
-3. Ajuste usuário e senha em `src/main/resources/application.properties`.
+3. Defina a variável de ambiente `MYBAR_DB_PASSWORD` com a senha do seu MySQL. Se o seu usuário não for `root`, ajuste `spring.datasource.username` em
+`src/main/resources/application.properties`.
 
 4. Execute `./mvnw spring-boot:run`
 
@@ -37,4 +38,4 @@ Java 21, Spring Boot, Spring Data JPA (Hibernate), MySQL, HTML, CSS e Javascript
 ## Autores
 Gustavo Alves de Araujo & Kauan Soares da Costa.
 
-Disciplina de Programação Orientada à Objetos (POO) do Curso de Ciência da Computação da Universidade Federal do Piauí, 2026.2.
+Disciplina de Programação Orientada a Objetos (POO) do Curso de Ciência da Computação da Universidade Federal do Piauí, 2026.2.
